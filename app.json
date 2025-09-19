@@ -1,5 +1,6 @@
 {
   "expo": {
+    "sdkVersion": "54.0.0",
     "name": "myFirstApp",
     "slug": "myFirstApp",
     "version": "1.0.0",
@@ -20,7 +21,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+  "edgeToEdgeEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"

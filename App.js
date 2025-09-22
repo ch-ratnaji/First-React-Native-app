@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 import { StyleSheet, Text, View, Button, TextInput } from "react-native";
 
 export default function App() {
@@ -16,7 +17,7 @@ export default function App() {
         ...courseGoals,
         {
           text: enteredGoalText,
-          id: Date.now().toString() + Math.random().toString(),
+          id: uuidv4(),
         },
       ];
     });
